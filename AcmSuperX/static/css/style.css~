@@ -1,0 +1,49 @@
+﻿body {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.problem-title {
+	text-align: center;
+	margin:10px 0 30px !important;
+}
+
+.problem-detail dt{
+  	text-transform: uppercase;
+  	font-size: 15px;
+}
+
+.problem-detail dd, .readability {
+  margin: 1em 20px 1em;
+  font-size: 1em;
+  font-family: "minion-pro-1", "minion-pro-2", "Palatino", Georgia, "Times New Roman", serif;
+  line-height: 1em;
+}
+
+.problem-submit .select-lang {
+  width: 100px;
+  font-size: 16px;
+  height: 34px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.problem-submit button {
+	float: right;
+}
+
+#content {
+	height: 700px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: #1B1B1B;
+    height: 50px;
+    min-width: 100%;
+    width: auto;
+    color: #989;
+    padding-top: 15px;
+}
