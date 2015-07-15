@@ -1,0 +1,38 @@
+TRACE [2015-07-15 21:08:36.467924] [#24118] [logger.h:98] log_open
+DEBUG [2015-07-15 21:08:36.468008] [#24118] [judge.c:154] -- Solution Information --
+MONITOR [2015-07-15 21:08:36.468026] [#24118] [judge.c:155] solution id 1073
+TRACE [2015-07-15 21:08:36.468039] [#24118] [judge.c:156] problem id    1000
+TRACE [2015-07-15 21:08:36.468052] [#24118] [judge.c:157] language      c++
+TRACE [2015-07-15 21:08:36.468064] [#24118] [judge.c:158] time limit    1000 ms
+TRACE [2015-07-15 21:08:36.468076] [#24118] [judge.c:159] memory limit  65536 KB
+DEBUG [2015-07-15 21:08:36.468088] [#24118] [judge.c:160] work dir      /home/jsucoder/Judged/Work/1073
+DEBUG [2015-07-15 21:08:36.468101] [#24118] [judge.c:161] data dir      /home/jsucoder/Judged/Data/1000
+DEBUG [2015-07-15 21:08:36.468117] [#24118] [judge.c:22] 
+[31m----- AcmSuperX Judge 1.0 -----[0m
+TRACE [2015-07-15 21:08:36.468130] [#24118] [misc.h:60] malarm: 16347
+TRACE [2015-07-15 21:08:36.468410] [#24119] [misc.h:60] [compiler] malarm: 5347
+DEBUG [2015-07-15 21:08:36.468459] [#24119] [judge.c:307] [compiler] set compile limit ok
+DEBUG [2015-07-15 21:08:36.468569] [#24119] [misc.h:72] [compiler] g++ -fno-asm -lm -static -Wall -O2 -DONLINE_JUDGE -o Main Main.cc 
+DEBUG [2015-07-15 21:08:36.854819] [#24118] [judge.c:240] compiler finished
+DEBUG [2015-07-15 21:08:36.854852] [#24118] [judge.c:250] compile succeeded
+DEBUG [2015-07-15 21:08:36.854865] [#24118] [judge.c:312] run_solution
+DEBUG [2015-07-15 21:08:36.854914] [#24118] [judge.c:340] start run solution (1 cases)
+DEBUG [2015-07-15 21:08:36.854952] [#24118] [judge.c:630] std  input  file: /home/jsucoder/Judged/Data/1000/test.in
+DEBUG [2015-07-15 21:08:36.854960] [#24118] [judge.c:631] std  output file: /home/jsucoder/Judged/Data/1000/test.out
+DEBUG [2015-07-15 21:08:36.854968] [#24118] [judge.c:632] user output file: /home/jsucoder/Judged/Work/1073/test.out
+TRACE [2015-07-15 21:08:36.854975] [#24118] [judge.c:345] run case: 1
+TRACE [2015-07-15 21:08:36.855162] [#24124] [judge.c:648] [executor] io redirect ok!
+TRACE [2015-07-15 13:08:36.912651] [#24124] [judge.c:729] [executor] set_security_option ok
+DEBUG [2015-07-15 13:08:36.912701] [#24124] [judge.c:685] [executor] File size limit: 16777218
+TRACE [2015-07-15 13:08:36.912717] [#24124] [judge.c:687] [executor] set execute limit ok
+DEBUG [2015-07-15 13:08:36.912730] [#24124] [judge.c:395] [executor] time limit: 1000, time usage: 0, time limit addtion: 347
+TRACE [2015-07-15 13:08:36.912744] [#24124] [misc.h:60] [executor] malarm: 1347
+TRACE [2015-07-15 13:08:36.912759] [#24124] [judge.c:405] [executor] begin execute
+TRACE [2015-07-15 21:08:36.914020] [#24118] [judge.c:444] normal quit
+TRACE [2015-07-15 21:08:36.914061] [#24118] [judge.c:788] start compare
+TRACE [2015-07-15 21:08:36.914160] [#24118] [judge.c:882] compare finished, result = AC
+NOTICE [2015-07-15 21:08:36.914179] [#24118] [judge.c:464] case result: 0, problem result: 0
+MONITOR [2015-07-15 21:08:36.914196] [#24118] [judge.c:919] result(0): AC, time: 0 ms, memory: 416 KB
+TRACE [2015-07-15 21:08:36.914228] [#24118] [logger.h:111] log_close
+--------------------------------------------------------------------------------
+
