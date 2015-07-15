@@ -58,7 +58,7 @@ class judge:
 		pass
             else:
 #./judge -s 1042 -p 1000 -l 1 -d /home/jsucoder/Judged/Work -D /home/jsucoder/Judged/Data
-                p = subprocess.Popen("/home/jsucoder/Judged/judge/judge -s "+str(self.solution_id)+" -p "+str(self.problem_id)\
+                p = subprocess.Popen("/usr/bin/judge -s "+str(self.solution_id)+" -p "+str(self.problem_id)\
 			+" -l "+str(self.lang)+" -d "+self.tmpdir+" -D "+self.datadir, shell=True, stdout=subprocess.PIPE)
 
 	    for l in p.stdout:
