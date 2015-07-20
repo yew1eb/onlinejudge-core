@@ -6,9 +6,9 @@ __版本 V 1.0__
 支持 C, C++, Java, Python 判题
 
 ## 其他
-数据库"**judge.sql**"：只使用了两张测试表 “solution”(soution_id,problem_id,user_id,time,memory,in_date, result,language,...) 和 “source_code”(solution_id, source)
-Web端"**AcmSuperX**"：（仅用于测试）使用Bootstrap和PHP
-判题端"**judge**"： 开发平台linux(Ubuntu 15.04 64bit)， python实现守护进程与MySQL数据库交互，C语言实现判题核心
+数据库"**judge.sql**"：只使用了两张测试表 “solution”(soution_id,problem_id,user_id,time,memory,in_date, result,language,...) 和 “source_code”(solution_id, source)    
+Web端"**AcmSuperX**"：（仅用于测试）使用Bootstrap和PHP       
+判题端"**judge**"： 开发平台linux(Ubuntu 15.04 64bit)， python实现守护进程与MySQL数据库交互，C语言实现判题核心      
 守护程序"**JudgeDaemon.py**"：Usage: ./JudgeDaemon.py		start|stop|restart
 ```
 ├── judge.conf
